@@ -69,7 +69,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by: Kavinraja D
 
  RegisterNumber: 212222240047
- 
+ ```
 module gates_exp1(a, b, c, d, e, x, y, z);
   input a, b;
   output c, d, e, x, y, z;
@@ -82,6 +82,7 @@ module gates_exp1(a, b, c, d, e, x, y, z);
   assign z = ~(a ^ b); // XNOR gate
 
 endmodule
+```
  
  ![Screenshot 2024-03-08 223639](https://github.com/MOHAMEDRIDWAN/study-of-basic-gates/assets/146993368/6755434d-b08e-47ab-9093-a9b27b12b8d7)
 
